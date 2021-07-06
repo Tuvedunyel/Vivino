@@ -9,8 +9,8 @@
 function getPDO(): PDO
 {
 
-  $servername = 'localhost';
-  $dbname = 'vuejs-php';
+  $servername = '127.0.0.1';
+  $dbname = 'vue-php';
   $user = 'root';
   $pass = '';
 
