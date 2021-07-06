@@ -1,0 +1,25 @@
+{
+  "name": "vivino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/style/index.scss:./assets/style/index.css",
+    "start": "browser-sync start --proxy localhost/vuejs-php-base  --files '**/*' --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuvedunyel/Vivino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuvedunyel/Vivino/issues"
+  },
+  "homepage": "https://github.com/Tuvedunyel/Vivino#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
