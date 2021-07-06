@@ -19,7 +19,7 @@ class Wines
       ORDER BY publish_date 
       DESC
     ");
-    $sql->setFetchMode(\PDO::FETCH_ASSOC);
+    $sql->setFetchMode(\PDO::FETCH_OBJ);
 
     return $sql;
   }
